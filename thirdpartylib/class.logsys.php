@@ -140,7 +140,6 @@ class LS {
        * Use Relative links or $_SERVER['REQUEST_URI']
        */
       "no_login" => array(
-        
       ),
       /**
        * The login page. ex : /login.php or /accounts/login.php
@@ -150,7 +149,7 @@ class LS {
        * The home page. The main page for logged in users.
        * logSys redirects to here after user logs in
        */
-      "home_page" => "/aun_attendance_system/index.php",
+      "home_page" => "/aun_attendance_system/home.php",
     ),
     
     /**
