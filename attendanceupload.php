@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
+    
     $name = $_FILES['file']['name'];
     $tmpName = $_FILES['file']['tmp_name'];
     $error = $_FILES['file']['error'];

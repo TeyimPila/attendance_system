@@ -7,7 +7,7 @@
     </head>
     <body>
         <?php
-        include_once 'attendanceupload.php';
+        include_once '/attendanceupload.php';
         require "/thirdpartylib/class.logsys.php";
         session_start();
         //\Fr\LS::init();
@@ -16,7 +16,7 @@
             \Fr\LS::logout();
         }
         ?>
-        <form name="excel" action="index.php" method="POST" enctype="multipart/form-data">
+        <form name="excel" action="home.php" method="POST" enctype="multipart/form-data">
             <input type="file" name="file" id="uploadfile"/>
             <input type="submit"  name="submit" value="Submit Attendance"/>
         </form>

@@ -47,9 +47,6 @@ function students_info($arr) {
 }
 
 
-
-
-
 function insert_students($data_array) {
     $added = 0;
     foreach (students_info($data_array) as $student) {
